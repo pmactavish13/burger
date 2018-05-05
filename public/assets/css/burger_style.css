@@ -17,12 +17,16 @@ body {
 #container {
     overflow: scroll; 
     text-align: center;
-    margin: 2%;   
+    margin: 3%;   
 }
 
-h1, h2 {
-    margin-top: 2%;
-    
+h2 {
+    border-bottom: dotted 3px rgb(191, 29, 29);
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
 }
 
 img {
@@ -36,8 +40,12 @@ img {
     margin-top: 20px;
 }
 
-.form-control{
-    border: 1px solid rgb(191, 29, 29);
+#burgerName{
+    border: 2px solid rgb(191, 29, 29);
+    width: 75%;
+    height: 35px;
+    border-radius: 4px;
+    color: rgb(108, 106, 106);
 }
 
 #burgerOrder {
@@ -49,9 +57,11 @@ img {
     color: whitesmoke;
 }
 
-#devour{
+.btn-sm{
     margin-top: -15px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    height: 27px;
+    width: 100px;
 }
 
 
